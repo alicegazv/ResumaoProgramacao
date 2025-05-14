@@ -10,9 +10,9 @@ public class Questão_04 {
         System.out.println("Me informe o segundo número:");
         int num2 = s.nextInt(); // Segundo número (subtraendo)
 
-        if ( num1 < num2) {  // Se o primeiro número for menor, calcula a diferença positiva
+        if (num1 < num2) {  // Se o primeiro número for menor, calcula a diferença positiva
             int diferencaM = num2 - num1;
-            System.out.println("A diferença do dois números: " + diferencaM );
+            System.out.println("A diferença do dois números: " + diferencaM);
         } else if (num1 > num2) {   // Se o primeiro número for maior, também calcula a diferença positiva da ordem
             int diferencaN = num1 - num2;
             System.out.println("A diferença do dois números:" + diferencaN);
@@ -20,6 +20,6 @@ public class Questão_04 {
             System.out.println("Digite algum valor , por favor.");
         }
         s.close();
- // Eu poderia deixar somente a 1 opção para exibir a diferença em números negativos mas prefiro assim, mostrando sempre em valor positivo. :)
+        // Eu poderia deixar somente a 1 opção para exibir a diferença em números negativos mas prefiro assim, mostrando sempre em valor positivo. :)
     }
 }

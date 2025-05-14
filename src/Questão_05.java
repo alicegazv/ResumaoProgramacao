@@ -9,10 +9,10 @@ public class Questão_05 {
         int num1 = s.nextInt(); // Lê um número  digitado pelo usuário
 
 
-        if (num1 % 2 == 0  ){ // se o resto do numero for exatamente  0 ele é par
-            System.out.println("Numéro: "+ num1 + " é par"); // Exibe o número se for par
+        if (num1 % 2 == 0) { // se o resto do numero for exatamente  0 ele é par
+            System.out.println("Numéro: " + num1 + " é par"); // Exibe o número se for par
         } else {
-            System.out.println("Numéro: "+ num1 + " é ímpar");// Exibe o número se for ímpar
+            System.out.println("Numéro: " + num1 + " é ímpar");// Exibe o número se for ímpar
         }
         s.close();
 
